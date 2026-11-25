@@ -32,3 +32,25 @@ body{
   width: 100%;
   border-radius: 20px;
 }
+.main-weather{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 40vh;
+  margin-left: 40px;
+  width: 65%;
+  background-color: blue;
+}
+.main-weather .main-weather-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 20px;
+  width: 50%;
+  height: 100%;
+}
+.main-weather .main-weather-img{
+  width: 50%;
+  height: 100%;
+}
