@@ -58,7 +58,7 @@ body{
   height: 40vh;
   margin-left: 40px;
   width: 60%;
-  background-color: var(--card-color);
+  background-color: transparent;
   padding: 15px 20px;
 }
 .main-weather .main-weather-text{
@@ -83,3 +83,15 @@ body{
   text-align: right;
 }
 /*main Weather Section ends*/
+
+/*Hourly Forecast Section starts*/
+.hourly-forcast-section{
+  height: 20vh;
+  width: 60%;
+  background-color: var(--card-color);
+  backdrop-filter: blur(12px) saturation(150%);
+  -webkit-backdrop-filter: blur(12px) saturation(150%);
+  margin: 30px 25px;
+  border-radius: 20px;
+
+}
