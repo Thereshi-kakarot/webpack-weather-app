@@ -88,10 +88,24 @@ body{
 .hourly-forcast-section{
   height: 20vh;
   width: 60%;
-  background-color: var(--card-color);
+  background-color: #666;
   backdrop-filter: blur(12px) saturation(150%);
   -webkit-backdrop-filter: blur(12px) saturation(150%);
   margin: 30px 25px;
   border-radius: 20px;
 
+}
+/*Hourly Forecast Section ends*/
+/*Air Conditions Section starts*/
+.condition-section{
+  height: 30vh;
+  width: 60%;
+  background-color: #666;
+  backdrop-filter: blur(12px) saturation(150%);
+  -webkit-backdrop-filter: blur(12px) saturation(150%);
+  margin: 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
 }
