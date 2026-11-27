@@ -15,6 +15,7 @@ body{
   color: var(--text-color);
   font-family: 'Poppins', sans-serif;
 }
+/*Search Area starts*/
 .search-area{
   display: flex;
   justify-content: center;
@@ -45,15 +46,20 @@ body{
   width: 30px;
   font-size: 1.5rem;
 }
+/*search Area ends*/
+
+
+/*main Weather Section starts*/
 .main-weather{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   margin-top: 30px;
   height: 40vh;
   margin-left: 40px;
-  width: 65%;
-  background-color: blue;
+  width: 60%;
+  background-color: var(--card-color);
+  padding: 15px 20px;
 }
 .main-weather .main-weather-text{
   display: flex;
@@ -63,7 +69,17 @@ body{
   width: 50%;
   height: 100%;
 }
+.main-weather .main-weather-text h1{
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
 .main-weather .main-weather-img{
   width: 50%;
   height: 100%;
+  text-align: right;
 }
+.main-weather .main-weather-img .bi{
+  font-size: 9rem;
+  text-align: right;
+}
+/*main Weather Section ends*/
